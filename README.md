@@ -1,7 +1,7 @@
 # duckdb-window-function-segfault
 A segfault occurs running the `list()` aggregate function as a window function on the Parquet file in this repo.
 
-It seems to be isoalated to `list()` being used as an aggregate function in a windowing context. `list()` works in a GROUP BY. Other window functions work on this data as well.
+It seems to be isolated to `list()` being used as an aggregate function in a windowing context. `list()` works in a GROUP BY. Other window functions work on this data as well.
 
 Version: This occurs in 0.6.0 and 0.5.1. 
 Platform: M1 Mac OS
